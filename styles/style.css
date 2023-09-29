@@ -74,12 +74,23 @@ p#pc-text-version{
     text-align: center;
     margin-top: 35px;
     padding: 10px;
+    text-shadow: 0px 0px 10px #0000008e;
 }
 
-#images img{
+.channel-image{
     border-radius: 50%;
     box-shadow: 0px 0px 10px black;
     padding: 5px;
+}
+
+.channel-title{
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+}
+
+.flag{
+    transform: translateY(3px)
 }
 
 #social-medias{
@@ -88,7 +99,7 @@ p#pc-text-version{
     justify-content: space-around;
 
     background-color: #cecece;
-    border-radius: 10px 10px 00px 0px;
+    border-radius: 10px;
 
     max-width: 380px;
     margin: auto;
